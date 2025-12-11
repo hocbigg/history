@@ -13,7 +13,9 @@
 
 # Summary
 
-This roadmap provides a structured, self-paced curriculum equivalent to a 4-year undergraduate degree in History, condensed into 1–2 years of study at approximately 20 hours per week. The program emphasizes critical thinking, primary source analysis, and historical interpretation, balancing chronological, regional, and thematic approaches. It is divided into four semesters (assuming an accelerated pace of 10–12 weeks per semester, with flexibility for breaks), allowing completion in about 1 year for dedicated learners or 1.5–2 years with a lighter load. Total estimated effort: 800–1,600 hours, depending on pace and depth.
+This roadmap provides a structured, self-paced curriculum equivalent to a 4-year undergraduate degree in History, condensed into 1–2 years of study at approximately 20 hours per week.
+
+The program emphasizes critical thinking, primary source analysis, and historical interpretation, balancing chronological, regional, and thematic approaches. 
 
 ## Organization
 
