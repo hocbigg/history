@@ -1,5 +1,5 @@
 <div align="center" style="text-align: center">
-<img src="images/ossu-logo.webp" alt=""/>
+
 <h3>Hocbigg - History</h3>
 <p>
   🎓 Path to a free self-taught education in History!
@@ -9,7 +9,9 @@
 # Contents
 
 - [Summary](#summary)
+- [Communities](#communities)
 - [Curriculum](#curriculum)
+- [Code of conduct](#code-of-conduct)
 
 # Summary
 
@@ -38,12 +40,53 @@ Specialization tracks in the Advanced phase include:
 
 Learners should select one primary track and optionally one secondary for breadth.
 
-When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
+Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
+
+**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
+
+- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
+- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
+- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
+
+**[How to contribute](CONTRIBUTING.md)**
+
+# Communities
+
+- Forums:
+  - [Historum](https://historum.com/)
+  - [Res Historica](https://reshistorica.forumotion.com/)
+  - [AlternateHistory.com](https://www.alternatehistory.com/forum/)
+  - [History Forum at The History Press](https://www.thehistorypress.co.uk/forum/)
+- Subreddits:
+  - [r/history](https://www.reddit.com/r/history/)
+  - [r/AskHistorians](https://www.reddit.com/r/AskHistorians/)
+  - [r/HistoryPorn](https://www.reddit.com/r/HistoryPorn/)
+  - [r/AcademicHistory](https://www.reddit.com/r/AcademicHistory/)
+  - [r/HistoryWhatIf](https://www.reddit.com/r/HistoryWhatIf/)
+- Discord servers:
+  - [World History Discord](https://discord.com/invite/history)
+  - [r/history Discord](https://discord.com/invite/r-history-284001693044310016)
+- Other:
+  - [Savage Minds (Anthropology & History Blog/Forum)](https://savageminds.org/)
+  - [History (Mastodon Instance)](https://hcommons.social/)
+- You can also interact through [GitHub issues](https://github.com/hocbigg/history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
 
 # Curriculum
 
-## Introductory Phase
+- [Introduction](#introduction)
+- [Core](#core)
+    - [Phase I](#phase-i)
+    - [Phase II](#phase-ii)
+- [Advanced](#advanced)
+    - [Ancient and Classical History](#ancient-and-classical-history)
+    - [European History](#european-history)
+    - [American History](#american-history)
+    - [Global/Non-Western History](#globalnon-western-history)
+    - [Thematic History](#thematic-history)
+- [Capstone](#capstone)
+
+## Introduction
 
 Orientation to historical inquiry and broad overviews. Build skills in reading, writing, and analyzing sources. Milestone: After completion, write a short essay synthesizing a historical event using primary and secondary sources.
 
@@ -52,7 +95,9 @@ Orientation to historical inquiry and broad overviews. Build skills in reading, 
 | **[Historical Methods and Thinking](https://www.coursera.org/learn/introduction-to-research-for-essay-writing)** | Introduces the discipline's tools, fostering critical analysis and evidence-based reasoning essential for all historical study. | *From Reliable Sources: An Introduction to Historical Methods* by Martha Howell and Walter Prevenier; Free alternative: *The Historian's Craft* by Marc Bloch (available via Project Gutenberg). | Introduction to Research for Essay Writing (Coursera, University of California, Irvine) |
 | **[World History Survey I (Ancient to Medieval)](https://www.coursera.org/learn/ancient-egypt)** | Provides a global foundation, helping contextualize human development and avoid Eurocentrism from the start. | *World History: Cultures, States, and Societies to 1500* by Eugene Berger et al. (free open textbook); Authoritative: *The History of the Ancient World* by Susan Wise Bauer. | Introduction to Ancient Egypt and Its Civilization (Coursera, University of Pennsylvania) |
 
-## Core Phase I
+## Core
+
+### Phase I
 
 Deepen chronological understanding and introduce regional perspectives. Build on intro skills for more complex analysis. Milestone: After completion, create a timeline and comparative analysis of two historical periods.
 
@@ -62,7 +107,7 @@ Deepen chronological understanding and introduce regional perspectives. Build on
 | **[Western Civilization I (Ancient to Early Modern Europe)](https://www.edx.org/course/western-civilization-ancient-and-medieval-europe)** | Establishes key narratives in European history, which influence many global interactions. | *Western Civilization: A Concise History Volume 1* by Christopher Brooks (free open textbook); Authoritative: *Western Civilization* by Jackson J. Spielvogel. | Western Civilization: Ancient and Medieval Europe (edX, Arizona State University) |
 | **[Introduction to Non-Western Histories](https://www.coursera.org/learn/indigenous-canada)** | Broadens perspectives beyond the West, promoting inclusive understanding of global dynamics. | *World History: Cultures, States, and Societies to 1500* by Eugene Berger et al. (free open textbook); Authoritative: *A History of Asia* by Rhoads Murphey. | Indigenous Canada (Coursera, University of Alberta) |
 
-## Core Phase II
+### Phase II
 
 Thematic and methodological depth, integrating theory with practice. Emphasize synthesis across regions and periods. Milestone: After completion, conduct a small research project on a core theme, including annotated bibliography.
 
@@ -72,7 +117,7 @@ Thematic and methodological depth, integrating theory with practice. Emphasize s
 | **[Political and Military History](https://www.coursera.org/learn/paradoxes-of-war)** | Explores power dynamics and conflicts, crucial for understanding governance and international relations. | *A History of Warfare* by John Keegan; Free alternative: *The Art of War* by Sun Tzu (public domain). | Paradoxes of War (Coursera, Princeton University) |
 | **[Historiography and Historical Theory](https://www.thegreatcoursesplus.com/making-history-how-great-historians-interpret-the-past)** | Deepens critical engagement with how history is written, addressing debates on objectivity and interpretation. | *The Idea of History* by R.G. Collingwood; Free alternative: *What is History?* by E.H. Carr (widely available online). | Making History: How Great Historians Interpret the Past (The Great Courses) |
 
-## Advanced Subjects
+## Advanced
 
 Specialization for expertise, followed by integration. Choose subjects from 1–2 tracks (total ~12 hours/week on advanced subjects, plus capstone prep). Milestone: Complete capstone proposal before starting the project.
 
@@ -124,3 +169,13 @@ Select 3–4 subjects from your chosen track(s). Each is designed for deeper foc
 | Subject | Why study? | Book | Videos |
 | --- | --- | --- | --- |
 | **[Capstone Project: Independent Historical Research](https://pll.harvard.edu/course/how-write-essay)** | Synthesizes program knowledge through original work, demonstrating mastery and preparing for further study or application. | *The Princeton Guide to Historical Research* by Zachary M. Schrag; Free alternative: *Writing History: A Guide for Students* by William Kelleher Storey. | How to Write an Essay (Harvard Online) |
+
+## Congratulations
+
+After completing the requirements of the curriculum above,
+you will have completed the equivalent of a full bachelor's degree in History.
+Congratulations!
+
+# Code of conduct
+
+[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
