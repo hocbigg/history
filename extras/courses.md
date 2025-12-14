@@ -6,7 +6,6 @@ or that there was an alternative that fit better into the curriculum.
 
 ## Ancient and Classical History
 
-
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Health and Wellbeing in the Ancient World](https://www.futurelearn.com/courses/ancient-health) | - | -
@@ -15,7 +14,6 @@ Courses | Duration | Effort
 [The Roman World](https://podcasts.apple.com/us/podcast/the-roman-world/id685694250) | - | -
 
 ## European History
-
 
 Courses | Duration | Effort
 :-- | :--: | :--:
@@ -27,7 +25,6 @@ Courses | Duration | Effort
 
 ## American History
 
-
 Courses | Duration | Effort
 :-- | :--: | :--:
 [African American History: Emancipation to the Present](https://oyc.yale.edu/african-american-studies/afam-162) | - | -
@@ -36,7 +33,6 @@ Courses | Duration | Effort
 [The Civil War and Reconstruction Era, 1845–1877](https://oyc.yale.edu/history/hist-119) | - | -
 
 ## Global/Non-Western History
-
 
 Courses | Duration | Effort
 :-- | :--: | :--:
@@ -47,7 +43,6 @@ Courses | Duration | Effort
 
 ## Thematic History
 
-
 Courses | Duration | Effort
 :-- | :--: | :--:
 [Big History](https://www.bighistoryproject.com/home) | - | -
@@ -55,9 +50,7 @@ Courses | Duration | Effort
 [The Great War and Modern Philosophy](https://www.futurelearn.com/courses/the-great-war) | - | -
 [History of Information](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iDIx4iAfMsFgGH9VCjhWy7C) | - | -
 
-# Online Learning - Great Courses
-
-
+## Online Learning - Great Courses
 
 Courses | Duration | Effort
 :-- | :--: | :--:
