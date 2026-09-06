@@ -1,77 +1,49 @@
 # Projects
 
-This page is a curated collection of well-written, step-by-step guides for learning History through hands-on, project-based practice.
+A curated collection of step-by-step methodological guides, open-access templates, and practical workflows for learning History by producing tangible scholarly and public-facing historical artifacts.
 
 > _What I cannot create, I do not understand — Richard Feynman._
 
-These projects are meant to support learning throughout the curriculum, not only at the end.  
-By building, writing, creating, or reconstructing real artifacts in the field, learners develop practical understanding alongside theoretical study.
+These projects are designed to support self-directed discovery throughout your studies. Rather than treating methods as abstract theory, select a historical artifact you wish to construct—such as a curated archival collection, an oral history interview, a spatial map, or a historiographical essay—and master historical inquiry through hands-on practice.
 
-## Tutorials
+## Primary Source & Archival Curation
 
-- [Historical Narrative](#write-your-own-historical-narrative)
-- [Biography](#write-your-own-biography)
-- [Timeline](#construct-your-own-timeline)
-- [Historical Map](#create-your-own-historical-map)
-- [Archive](#build-your-own-archive)
-- [Genealogical Tree](#build-your-own-genealogical-tree)
-- [Historiographical Essay](#write-your-own-historiographical-essay)
-- [Primary Source Collection](#compile-your-own-primary-source-collection)
-- [Historical Argument](#formulate-your-own-historical-argument)
-- [Museum Exhibit](#curate-your-own-museum-exhibit)
-- [Oral History](#record-your-own-oral-history)
+- [Creating a Primary Source Archive: All History Is Local – Library of Congress](https://www.loc.gov/classroom-materials/creating-a-primary-source-archive-all-history-is-local/)
+- [Working with Sources: Research and Evaluation Guide – The National Archives (UK)](https://www.nationalarchives.gov.uk/education/students/study-skills-and-research/working-with-sources/)
+- [How to Preserve Family Archives (Papers and Photographs) – U.S. National Archives](https://www.archives.gov/preservation/family-archives)
+- [Creating Digital Collections and Exhibits with Omeka – Omeka Classic Documentation](https://omeka.org/classic/docs/)
 
-### Historical Narrative
+## Oral History & Living Memory
 
-- [How to Write a History Narrative Essay: Step by Step Guide](https://www.kspatriot.org/index.php/articles/60-guest-authors/722-how-to-write-a-history-narrative-essay-step-by-step-guide.html) (Step-by-step written guide)
-- [Writing Narrative History](https://terpconnect.umd.edu/~jklumpp/comm711/narrative.htm) (Detailed tutorial with sections on narrator, plot, characters)
+- [How to Do Oral History – Smithsonian Institution Archives](https://siarchives.si.edu/history/how-do-oral-history)
+- [Principles and Best Practices for Oral History – Oral History Association](https://www.oralhistory.org/principles-and-best-practices-revised-2018/)
+- [How to Conduct an Oral History Interview – National Trust for Historic Preservation](https://savingplaces.org/stories/how-to-conduct-oral-history-interview)
 
-### Biography
+## Historiographical Analysis & Historical Argumentation
 
-- [How to Write a Biography: A 7-Step Guide [+Template]](https://reedsy.com/blog/how-to-write-a-biography) (Comprehensive step-by-step guide with template)
-- [How to Write a Biography: Step-by-Step Writing Guide](https://www.planetspark.in/creative-writing/how-to-write-a-biography) (Structured tutorial with examples)
+- [Seven Steps to Writing Historiography – University of Guelph Library](https://guides.lib.uoguelph.ca/c.php?g=725675&p=5198838)
+- [Step-by-Step Creation of a Historiographical Review – University of Rhode Island Libraries](https://uri.libguides.com/historiography/creation)
+- [Writing a Thesis and Making an Argument – University of Iowa History Writing Center](https://history.uiowa.edu/undergraduate/history-writing-center/argumentation)
 
-### Timeline
+## Biographical & Narrative History
 
-- [TimelineJS](https://timeline.knightlab.com/) (Open-source tool tutorial for building interactive timelines)
-- [How to make timelines with your usual office tools](https://www.officetimeline.com/timeline/how-to-make) (Detailed tutorials using common software)
+- [Writing Narrative History – University of Maryland](https://terpconnect.umd.edu/~jklumpp/comm711/narrative.htm)
+- [How to Write a Biography: Step-by-Step Guide and Structure – Reedsy Learning](https://reedsy.com/blog/how-to-write-a-biography)
 
-### Historical Map
+## Spatial History, Mapping & Timelines
 
-- [Preparing a Historical Map for GIS Systems](https://jasonmkelly.com/jason-m-kelly/2020/3/17/preparing-a-historical-map-for-gis-systems) (Step-by-step tutorial on georectifying and using historical maps in GIS)
-- [Creating a Historical Map with GIS](https://ryancordell.org/research/spatial-humanities/creating-a-historical-map-with-gis) (Guide to plotting events and georeferencing in ArcGIS)
+- [TimelineJS: Storytelling with Chronological Timelines – Northwestern University Knight Lab](https://timeline.knightlab.com/)
+- [StoryMapJS: Telling Stories with Maps – Northwestern University Knight Lab](https://storymap.knightlab.com/)
+- [Intro to Google Maps and Google Earth for Historians – The Programming Historian](https://programminghistorian.org/en/lessons/googlemaps-googleearth)
+- [Georeferencing Historical Maps in QGIS – The Programming Historian](https://programminghistorian.org/en/lessons/georeferencing-qgis)
 
-### Archive
+## Public History & Museum Exhibition Design
 
-- [How to Create a Digital Archive](https://historyit.com/how-to-create-a-digital-archive) (Three-step strategy for building and preserving a digital archive)
-- [HOME ARCHIVAL GUIDE Your guide to build your own at-home archive!](https://www.detroithistorical.org/sites/default/files/pdfs/100%20Years%20100%20Stories%20Booklet_Digital.pdf) (Expert guide to preserving personal/historical materials at home)
+- [A Guide to Exhibit Development – Smithsonian Exhibits](https://exhibits.si.edu/wp-content/uploads/2018/04/Guide-to-Exhibit-Development.pdf)
+- [Wayside Exhibit Design – Harpers Ferry Center (U.S. National Park Service)](https://www.nps.gov/subjects/hfc/wayside-exhibit-design.htm)
+- [Curate Our Collection: Make Your Own Exhibition Guide – Birmingham Museum of Art](https://learn.artsbma.org/resource/curate-our-collection-make-your-own-exhibition)
 
-### Genealogical Tree
+## Genealogical & Family History Research
 
-- [How to Build a Family Tree: Tracing Your Ancestors](https://www.ngsgenealogy.org/free-resources/build-family-tree) (Step-by-step guide starting from home documents)
-- [How To Make A Family Tree: Step-by-Step Guide For Beginners](https://education.myheritage.com/article/how-to-make-a-family-tree-step-by-step-guide-online-tools) (4-step process with online tools)
-
-### Historiographical Essay
-
-- [Seven Steps to Writing Historiography](https://guides.lib.uoguelph.ca/c.php?g=725675&p=5198838) (Clear 7-step university guide)
-- [How to Create a Historiography: Step-By-Step Creation](https://uri.libguides.com/historiography/creation) (Detailed steps for topic selection and analysis)
-
-### Primary Source Collection
-
-- [Creating a Primary Source Archive: All History Is Local](https://www.loc.gov/classroom-materials/creating-a-primary-source-archive-all-history-is-local) (Library of Congress guide to building a personal/local collection)
-- [DIY: Create Your Own Primary Source Sets](https://www.socialstudies.org/sites/default/files/diy_create_your_own_primary_source_sets_0.pdf) (Tutorial for curating and building sets with tools)
-
-### Historical Argument
-
-- [Writing a Thesis and Making an Argument](https://history.uiowa.edu/undergraduate/history-writing-center/argumentation) (Guide to crafting and supporting historical theses)
-- [How to Research and Write a Compelling History Thesis](https://online.norwich.edu/online/about/resource-library/how-research-and-write-compelling-history-thesis) (Step-by-step process including source analysis and outlining)
-
-### Museum Exhibit
-
-- [Crafting a Virtual Museum Using Canva : 8 Steps](https://www.instructables.com/Crafting-a-Virtual-Museum-Using-Canva) (Hands-on tutorial for creating a virtual exhibit)
-- [Curate Our Collection - Make Your Own Exhibition](https://learn.artsbma.org/resource/curate-our-collection-make-your-own-exhibition) (Digital curation guide using museum tools and worksheets)
-
-### Oral History
-
-- [How to Do Oral History](https://siarchives.si.edu/history/how-do-oral-history) (Smithsonian best practices and step-by-step suggestions)
-- [How to Conduct an Oral History Interview](https://savingplaces.org/stories/how-to-conduct-oral-history-interview) (9 practical tips for planning and recording interviews)
+- [Start Your Genealogy Research – U.S. National Archives](https://www.archives.gov/research/genealogy/start-research)
+- [How to Build a Family Tree: Tracing Your Ancestors – National Genealogical Society](https://www.ngsgenealogy.org/free-resources/build-family-tree)

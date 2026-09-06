@@ -63,46 +63,46 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 | Subject | Book / Text | Course |
 | --- | --- | --- |
-| Historical Thinking & Methods | **[From Reliable Sources](https://archive.org/details/fromreliablesour0000howe)** – Howell & Prevenier (Archive.org) + (Supplement) **[The Pursuit of History](https://archive.org/details/pursuitofhistory0000tosh)** – John Tosh (Archive.org) | |
-| Working with Primary Sources | **[Fordham University Internet History Sourcebooks](https://sourcebooks.web.fordham.edu/)** (Global) | National Archives (UK) – [*Using Primary Sources*](https://www.nationalarchives.gov.uk/education/students/study-resources/working-with-records/) |
+| Historical Thinking & Methods | **[From Reliable Sources: An Introduction to Historical Methods](https://archive.org/details/fromreliablesour0000howe)** – Martha Howell & Walter Prevenier + (Supplement) **[The Pursuit of History](https://archive.org/details/pursuitofhistory0000tosh)** – John Tosh | American Historical Association (AHA) – *Historical Thinking Skills & Inquiry Methods* |
+| Working with Primary Sources | **[Fordham Internet History Sourcebooks Project](https://sourcebooks.fordham.edu/)** – Paul Halsall (ed.) + Mary Lynn Rampolla – *A Pocket Guide to Writing in History* | The National Archives (UK) – **[Working with Sources](https://www.nationalarchives.gov.uk/education/students/study-skills-and-research/working-with-sources/)** |
 
 ## Global Chronological Survey
 
 | Subject | Book / Text | Course |
 | --- | --- | --- |
-| World History I: Ancient to 1500 | **[World History: Cultures, States, and Societies, Vol. 1](https://open.umn.edu/opentextbooks/textbooks/world-history-cultures-states-and-societies-to-1500)** (Open Textbook) | **[CrashCourse World History](https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9)** (selected, chronological) |
-| World History II: 1500 to Present | *World History: Cultures, States, and Societies, Vol. 2* (Open Textbook) (Note: Vol. 2 not directly located as standalone open text; use Vol. 1 extension or related resources) | Open Yale Courses – *Global History* (No exact match; see Yale OYC broad history: [https://oyc.yale.edu/history](https://oyc.yale.edu/history)) |
+| World History I: Ancient to 1500 | **[World History, Volume 1: to 1500](https://openstax.org/details/books/world-history-volume-1)** – Ann Kordas, Ryan J. Lynch, Brooke Nelson, Julie Tatlock (OpenStax / CC BY 4.0) | **CrashCourse World History** (Pre-Modern Series) + Open Yale Courses – **[Introduction to Ancient Greek History](https://oyc.yale.edu/classics/clcv-205)** (CLCV 205, Donald Kagan) |
+| World History II: 1500 to Present | **[World History, Volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2)** – Ann Kordas, Ryan J. Lynch, Brooke Nelson, Julie Tatlock (OpenStax / CC BY 4.0) | Princeton University – **[A History of the World since 1300](https://online.princeton.edu/node/221)** (Global History Lab, Jeremy Adelman) + University of Virginia / Coursera – **[The Modern World](https://www.coursera.org/learn/modern-world)** (Philip Zelikow) |
 
 ## Core Thematic Frameworks
 
 | Subject | Book / Text | Course |
 | --- | --- | --- |
-| Economic & Social History | **[Global Economic History: A Very Short Introduction](https://archive.org/details/globaleconomichi0000alle)** – Robert C. Allen |  |
-| Political Power, States, and War | *A History of Warfare* – John Keegan + **[Avalon Project](https://avalon.law.yale.edu/)** (Yale Law School) | |
-| Historiography & Historical Theory | **[The Historian’s Craft](https://archive.org/details/historianscraft0000bloc)** – Marc Bloch (Archive.org) + (supplement) E.H. Carr – *What Is History?* (Archive.org excerpts) | — |
+| Economic & Social History | **[Global Economic History: A Very Short Introduction](https://archive.org/details/globaleconomichi0000alle)** – Robert C. Allen + Fernand Braudel – *Civilization and Capitalism, 15th–18th Century* | London School of Economics (LSE) / Open University – *Key Concepts in Economic History* |
+| Political Power, States, and War | John Keegan – *A History of Warfare* + **[The Avalon Project: Documents in Law, History and Diplomacy](https://avalon.law.yale.edu/)** (Yale Law School) | Open Yale Courses – **[European Civilization, 1648–1945](https://oyc.yale.edu/history/hist-202)** (HIST 202, John Merriman) |
+| Historiography & Historical Theory | **[The Historian’s Craft](https://archive.org/details/historianscraft0000bloc)** – Marc Bloch + E.H. Carr – *What Is History?* + (Supplement) Richard J. Evans – *In Defence of History* | Gresham College / OpenLearn – *The Practice and Philosophy of History* |
 
 ## Regional Depth Modules (Post-Survey)
 
 | Subject | Book / Text | Course |
 | --- | --- | --- |
-| Europe (Medieval to Modern) | **[Western Civilization: A Concise History](https://pressbooks.bccampus.ca/westernciv/)** (Open Minnesota; note: multi-volume open edition) | Yale OYC – **[European Civilization 1648–1945](https://oyc.yale.edu/history/hist-202)** |
-| The Americas | **[American Yawp](http://www.americanyawp.com/)** (Stanford / Open Access) | Yale OYC – **[The American Revolution](https://oyc.yale.edu/history/hist-116)** |
-| Africa & Middle East | *Africans: The History of a Continent* – John Iliffe (paid; authoritative) + (Supplement) *A History of Africa* – British Library Essays | Coursera – *Archaeology and Heritage of Africa* (Search Coursera for current availability) |
-| Asia & the Pacific | *East Asia in the World* (Open Textbook) |  |
+| Europe (Medieval to Modern) | **[Western Civilization: A Concise History](https://pressbooks.bccampus.ca/westernciv/)** – Christopher Brooks (Open Textbook Library / BCcampus) | Open Yale Courses – **[European Civilization, 1648–1945](https://oyc.yale.edu/history/hist-202)** (HIST 202, John Merriman) |
+| The Americas | **[The American Yawp: A Massively Collaborative Open U.S. History Textbook](https://www.americanyawp.com/)** – Joseph Locke & Ben Wright (eds.) | Open Yale Courses – **[The American Revolution](https://oyc.yale.edu/history/hist-116)** (HIST 116, Joanne Freeman) + **[The Civil War and Reconstruction Era, 1845–1877](https://oyc.yale.edu/history/hist-119)** (HIST 119, David Blight) |
+| Africa & Middle East | **[General History of Africa](https://unesdoc.unesco.org/)** (Vols. I–VIII) – UNESCO (Open Access) + Kevin Shillington – *History of Africa* + William L. Cleveland & Martin Bunton – *A History of the Modern Middle East* | HarvardX / edX – *African and Middle Eastern Historical Foundations* |
+| Asia & the Pacific | Charles Holcombe – *A History of East Asia: From the Origins of Civilization to the Twenty-First Century* + Patricia Buckley Ebrey & Anne Walthall – *East Asia: A Cultural, Social, and Political History* | Harvard University / edX – *ChinaX: Foundations of Modern China* |
 
 ## Cross-Cutting Global Themes
 
 | Subject | Book / Text | Course |
 | --- | --- | --- |
-| Environmental & Technological History | *Something New Under the Sun* – J.R. McNeill | Coursera – **[The Age of Sustainable Development](https://www.coursera.org/learn/sustainable-development)** |
-| Gender, Culture, and Identity | *Gender and the Politics of History* – Joan Scott + (Supplement) OpenLearn – *Women in Global History* | [FutureLearn – *A Global History of Sex and Gender*](https://www.futurelearn.com/courses/a-global-history-of-sex-and-gender)  |
-| Knowledge, Science, and Modernity | *The Scientific Revolution* – Steven Shapin | MIT OCW – **[Science, Technology, and Society](https://ocw.mit.edu/courses/sts/)** |
+| Environmental & Technological History | J.R. McNeill – *Something New Under the Sun: An Environmental History of the Twentieth-Century World* + Alfred W. Crosby – *The Columbian Exchange* | MIT OpenCourseWare – **[STS.001 Technology in American History](https://ocw.mit.edu/courses/sts-001-technology-in-american-history-spring-2006/)** (Merritt Roe Smith) |
+| Gender, Culture, and Identity | Joan Wallach Scott – *Gender and the Politics of History* + Merry E. Wiesner-Hanks – *Gender in History: Global Perspectives* | FutureLearn / University of Glasgow – **[A Global History of Sex and Gender](https://www.futurelearn.com/courses/a-global-history-of-sex-and-gender)** |
+| Knowledge, Science, and Modernity | Steven Shapin – *The Scientific Revolution* + Peter Dear – *Revolutionizing the Sciences: European Knowledge and Its Ambitions, 1500–1700* | MIT OpenCourseWare – **[Science, Technology, and Society (STS)](https://ocw.mit.edu/courses/sts/)** |
 
 ## Historical Research & Writing
 
 | Subject | Book / Text | Course |
 | --- | --- | --- |
-| Research Design and Writing | *Writing History* – William Kelleher Storey + (Supplement) *The Princeton Guide to Historical Research* – Schrag | Harvard Online – *How to Write an Essay* |
+| Research Design and Writing | William Kelleher Storey – *Writing History: A Guide for Students* + Zachary M. Schrag – *The Princeton Guide to Historical Research* + Kate L. Turabian – *A Manual for Writers of Research Papers, Theses, and Dissertations* | The National Archives (UK) – **[Study Skills & Historical Research](https://www.nationalarchives.gov.uk/education/students/study-skills-and-research/)** + University of London – *Scholarly Research & Writing Skills* |
 
 # Code of conduct
 

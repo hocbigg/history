@@ -1,59 +1,37 @@
 # Great Courses
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+A curated collection of full-length university lecture series, high-production open courses, and audiovisual deep dives in History that offer exceptional historiographical insight and pedagogical depth beyond core introductory surveys.
 
-## Ancient and Classical History
+## Ancient, Classical & Medieval Worlds
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Health and Wellbeing in the Ancient World](https://www.futurelearn.com/courses/ancient-health) | - | -
-[Ancient Greece: Myth, Art & War](https://podcasts.apple.com/us/podcast/ancient-greece-myth-art-war/id507909411) | - | -
-[The Cosmopolitan Medieval Arabic World](https://www.coursera.org/learn/arabic-world) | - | -
-[The Roman World](https://podcasts.apple.com/us/podcast/the-roman-world/id685694250) | - | -
+- [The Early Middle Ages, 284–1000 (Open Yale Courses / Yale University / Paul Freedman)](https://oyc.yale.edu/history/hist-210)
+- [Roman Architecture (Open Yale Courses / Yale University / Diana E. E. Kleiner)](https://oyc.yale.edu/history-of-art/hsar-252)
+- [The Book of Kells: Exploring an Irish Medieval Masterpiece (FutureLearn / Trinity College Dublin / Fintan Cullen)](https://www.futurelearn.com/courses/book-of-kells)
+- [Coexistence in Medieval Spain: Jews, Christians, and Muslims (Coursera / University of Colorado Boulder / Brian A. Catlos)](https://www.coursera.org/learn/medieval-spain)
 
-## European History
+## Early Modern & Modern European History
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Age of Cathedrals](https://pll.harvard.edu/course/age-cathedrals) | - | -
-[Coexistence in Medieval Spain: Jews, Christians, and Muslims](https://www.coursera.org/learn/medieval-spain) | - | -
-[Deciphering Secrets: The Illuminated Manuscripts of Medieval Europe](https://www.coursera.org/learn/medieval-europe) | - | -
-[Magic in the Middle Ages](https://www.coursera.org/learn/magic-middle-ages) | - | -
-[The Book of Kells: Exploring an Irish Medieval Masterpiece](https://www.futurelearn.com/courses/book-of-kells) | - | -
+- [Early Modern England: Politics, Religion, and Society under the Tudors and Stuarts (Open Yale Courses / Yale University / Keith E. Wrightson)](https://oyc.yale.edu/history/hist-251)
+- [France Since 1871 (Open Yale Courses / Yale University / John Merriman)](https://oyc.yale.edu/history/hist-276)
+- [Age of Cathedrals (Harvard Online / Harvard University / Howard Bloch)](https://pll.harvard.edu/course/age-cathedrals)
+- [Deciphering Secrets: The Illuminated Manuscripts of Medieval Europe (Coursera / University of Colorado / Roger L. Martínez-Dávila)](https://www.coursera.org/learn/medieval-europe)
 
-## American History
+## African American, Atlantic & American History
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[African American History: Emancipation to the Present](https://oyc.yale.edu/african-american-studies/afam-162) | - | -
-[Age of Jefferson](https://www.coursera.org/learn/age-of-jefferson) | - | -
-[The American Revolution](https://oyc.yale.edu/history/hist-116) | - | -
-[The Civil War and Reconstruction Era, 1845–1877](https://oyc.yale.edu/history/hist-119) | - | -
+- [African American History: Emancipation to the Present (Open Yale Courses / Yale University / Jonathan Holloway)](https://oyc.yale.edu/african-american-studies/afam-162)
+- [The Civil War and Reconstruction Era, 1845–1877 (Open Yale Courses / Yale University / David W. Blight)](https://oyc.yale.edu/history/hist-119)
+- [The American Revolution (Open Yale Courses / Yale University / Joanne B. Freeman)](https://oyc.yale.edu/history/hist-116)
+- [The Age of Jefferson (Coursera / University of Virginia / Peter Onuf)](https://www.coursera.org/learn/age-of-jefferson)
 
-## Global/Non-Western History
+## Global, Asian & Islamic Civilizations
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Arab-Islamic History: From Tribes to Empires](https://www.coursera.org/learn/arab-islamic-history) | - | -
-[Modern China’s Foundations: The Manchus and the Qing](https://pll.harvard.edu/course/china-part-6-manchus-and-qing) | - | -
-[Invasions, Rebellions, and the Fall of Imperial China](https://pll.harvard.edu/course/china-part-7-invasions-rebellions-and-end-imperial-china) | - | -
-[China and Communism](https://pll.harvard.edu/course/china-part-9-communist-liberations) | - | -
+- [ChinaX: China's Past, Present and Future (HarvardX / Harvard University / Peter K. Bol & William C. Kirby)](https://pll.harvard.edu/course/chinax-chinas-past-present-and-future)
+- [Arab-Islamic History: From Tribes to Empires (Coursera / Tel Aviv University / Miri Shefer-Mossensohn)](https://www.coursera.org/learn/arab-islamic-history)
+- [The Cosmopolitan Medieval Arabic World (Coursera / Universiteit Leiden / Petra Sijpesteijn)](https://www.coursera.org/learn/arabic-world)
 
-## Thematic History
+## Thematic, Intellectual & Epidemiological Histories
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Big History](https://www.bighistoryproject.com/home) | - | -
-[Epidemics in Western Society Since 1600](https://oyc.yale.edu/history/hist-234) | - | -
-[The Great War and Modern Philosophy](https://www.futurelearn.com/courses/the-great-war) | - | -
-[History of Information](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iDIx4iAfMsFgGH9VCjhWy7C) | - | -
-
-## Online Learning - Great Courses
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+- [Epidemics in Western Society Since 1600 (Open Yale Courses / Yale University / Frank M. Snowden)](https://oyc.yale.edu/history/hist-234)
+- [History of Information (Internet Archive / UC Berkeley / Geoffrey Nunberg & Paul Duguid)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iDIx4iAfMsFgGH9VCjhWy7C)
+- [Big History Project (OER Project / Macquarie University / David Christian)](https://www.bighistoryproject.com/home)
+- [The Great War and Modern Philosophy (FutureLearn / KU Leuven / Nicolas de Warren)](https://www.futurelearn.com/courses/the-great-war)
