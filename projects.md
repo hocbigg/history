@@ -1,49 +1,58 @@
-# Projects
+# History Projects & Methodological Walkthroughs
 
-A curated collection of step-by-step methodological guides, open-access templates, and practical workflows for learning History by producing tangible scholarly and public-facing historical artifacts.
+A curated directory of step-by-step guides, open-source tools, and methodological workflows for applying historical knowledge through tangible artifacts—from digital maps and archival collections to oral histories and research monographs.
 
-> _What I cannot create, I do not understand — Richard Feynman._
+## Write a Narrative History
 
-These projects are designed to support self-directed discovery throughout your studies. Rather than treating methods as abstract theory, select a historical artifact you wish to construct—such as a curated archival collection, an oral history interview, a spatial map, or a historiographical essay—and master historical inquiry through hands-on practice.
+- [A Brief Guide to Writing the History Paper (Harvard College Writing Center)](https://hwpi.harvard.edu/files/hwp/files/bg_writing_history.pdf)
+- [Reading, Writing, and Researching for History: A Guide for College Students (Patrick Rael / Bowdoin College)](https://courses.bowdoin.edu/writing-guides/)
+- [Learning to Do Historical Research: Sources and Narrative (William Cronon)](https://www.williamcronon.net/researching/)
 
-## Primary Source & Archival Curation
+## Write a Historical Biography or Profile
 
-- [Creating a Primary Source Archive: All History Is Local – Library of Congress](https://www.loc.gov/classroom-materials/creating-a-primary-source-archive-all-history-is-local/)
-- [Working with Sources: Research and Evaluation Guide – The National Archives (UK)](https://www.nationalarchives.gov.uk/education/students/study-skills-and-research/working-with-sources/)
-- [How to Preserve Family Archives (Papers and Photographs) – U.S. National Archives](https://www.archives.gov/preservation/family-archives)
-- [Creating Digital Collections and Exhibits with Omeka – Omeka Classic Documentation](https://omeka.org/classic/docs/)
+- [Writing Historical Biography (Elizabeth Shown Mills / Evidence Explained)](https://www.evidenceexplained.com/content/writing-historical-biography)
+- [How to Write a Biography: A 7-Step Guide (Reedsy)](https://reedsy.com/blog/how-to-write-a-biography)
 
-## Oral History & Living Memory
+## Build an Interactive Historical Timeline
 
-- [How to Do Oral History – Smithsonian Institution Archives](https://siarchives.si.edu/history/how-do-oral-history)
-- [Principles and Best Practices for Oral History – Oral History Association](https://www.oralhistory.org/principles-and-best-practices-revised-2018/)
-- [How to Conduct an Oral History Interview – National Trust for Historic Preservation](https://savingplaces.org/stories/how-to-conduct-oral-history-interview)
+- [TimelineJS (Knight Lab)](https://timeline.knightlab.com/)
+- [StoryMapJS (Knight Lab)](https://storymap.knightlab.com/)
 
-## Historiographical Analysis & Historical Argumentation
+## Create a Historical Map or Spatial Visualization
 
-- [Seven Steps to Writing Historiography – University of Guelph Library](https://guides.lib.uoguelph.ca/c.php?g=725675&p=5198838)
-- [Step-by-Step Creation of a Historiographical Review – University of Rhode Island Libraries](https://uri.libguides.com/historiography/creation)
-- [Writing a Thesis and Making an Argument – University of Iowa History Writing Center](https://history.uiowa.edu/undergraduate/history-writing-center/argumentation)
+- [Introduction to Map Warper (Anthony Picón Rodríguez & Miguel Cuadros / The Programming Historian)](https://programminghistorian.org/en/lessons/introduction-map-warper)
+- [Displaying a Georeferenced Map in KnightLab's StoryMap JS (Erica Y. Hayes & Mia Partlow / The Programming Historian)](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
+- [Preparing a Historical Map for GIS Systems (Jason M. Kelly)](https://jasonmkelly.com/jason-m-kelly/2020/3/17/preparing-a-historical-map-for-gis-systems)
 
-## Biographical & Narrative History
+## Curate a Primary-Source Archive or Collection
 
-- [Writing Narrative History – University of Maryland](https://terpconnect.umd.edu/~jklumpp/comm711/narrative.htm)
-- [How to Write a Biography: Step-by-Step Guide and Structure – Reedsy Learning](https://reedsy.com/blog/how-to-write-a-biography)
+- [Creating a Primary Source Archive: All History Is Local (Library of Congress)](https://www.loc.gov/classroom-materials/creating-a-primary-source-archive-all-history-is-local)
+- [Home Archival Guide: Your Guide to Build Your Own At-Home Archive (Detroit Historical Society)](https://www.detroithistorical.org/sites/default/files/pdfs/100%20Years%20100%20Stories%20Booklet_Digital.pdf)
+- [Up and Running with Omeka.net (Miriam Posner / The Programming Historian)](https://programminghistorian.org/en/lessons/up-and-running-with-omeka)
 
-## Spatial History, Mapping & Timelines
+## Curate a Virtual Museum Exhibit
 
-- [TimelineJS: Storytelling with Chronological Timelines – Northwestern University Knight Lab](https://timeline.knightlab.com/)
-- [StoryMapJS: Telling Stories with Maps – Northwestern University Knight Lab](https://storymap.knightlab.com/)
-- [Intro to Google Maps and Google Earth for Historians – The Programming Historian](https://programminghistorian.org/en/lessons/googlemaps-googleearth)
-- [Georeferencing Historical Maps in QGIS – The Programming Historian](https://programminghistorian.org/en/lessons/georeferencing-qgis)
+- [Creating an Omeka Exhibit (Miriam Posner & Megan R. Brett / The Programming Historian)](https://programminghistorian.org/en/lessons/creating-an-omeka-exhibit)
+- [Building a Digital Exhibition with CollectionBuilder and the Internet Archive (Jennifer Isasi / The Programming Historian)](https://programminghistorian.org/en/lessons/building-a-digital-exhibition-with-collectionbuilder-and-the-internet-archive)
 
-## Public History & Museum Exhibition Design
+## Conduct and Record an Oral History Project
 
-- [A Guide to Exhibit Development – Smithsonian Exhibits](https://exhibits.si.edu/wp-content/uploads/2018/04/Guide-to-Exhibit-Development.pdf)
-- [Wayside Exhibit Design – Harpers Ferry Center (U.S. National Park Service)](https://www.nps.gov/subjects/hfc/wayside-exhibit-design.htm)
-- [Curate Our Collection: Make Your Own Exhibition Guide – Birmingham Museum of Art](https://learn.artsbma.org/resource/curate-our-collection-make-your-own-exhibition)
+- [How to Do Oral History (Smithsonian Institution Archives)](https://siarchives.si.edu/history/how-do-oral-history)
+- [Step-by-Step Guide to Oral History (Judith Moyer / DoHistory)](https://dohistory.org/on_your_own/toolkit/oralHistory.html)
+- [Oral History Best Practices (Oral History Association)](https://oralhistory.org/best-practices/)
+- [How to Conduct an Oral History Interview (National Trust for Historic Preservation)](https://savingplaces.org/stories/how-to-conduct-oral-history-interview)
 
-## Genealogical & Family History Research
+## Build a Genealogical Family Tree
 
-- [Start Your Genealogy Research – U.S. National Archives](https://www.archives.gov/research/genealogy/start-research)
-- [How to Build a Family Tree: Tracing Your Ancestors – National Genealogical Society](https://www.ngsgenealogy.org/free-resources/build-family-tree)
+- [How to Build a Family Tree: Tracing Your Ancestors (National Genealogical Society)](https://www.ngsgenealogy.org/free-resources/build-family-tree)
+- [Resources for Genealogists and Family Historians (US National Archives)](https://www.archives.gov/research/genealogy)
+
+## Write a Historiographical Essay
+
+- [Seven Steps to Writing Historiography (University of Guelph Library)](https://guides.lib.uoguelph.ca/Historiography)
+- [Historiography Papers (Regent University Writing Lab)](https://www.regent.edu/wp-content/uploads/2024/08/Regent-Writing-Lab-Historiography-Papers.pdf)
+
+## Formulate a Historical Argument or Research Paper
+
+- [Writing a Thesis and Making an Argument (University of Iowa History Writing Center)](https://history.uiowa.edu/undergraduate/history-writing-center/argumentation)
+- [The Three Parts of a History Paper (Patrick Rael / Bowdoin College)](https://courses.bowdoin.edu/writing-guides/preparing-history-papers/the-three-parts-of-a-history-paper/)
