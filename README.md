@@ -5,11 +5,25 @@ description: Path to a free self-taught education in History!
 
 ## Introduction
 
-This roadmap provides a structured, self-paced curriculum equivalent to a 4-year undergraduate degree in History.
+History is often mistaken for a static catalog of names, dates, and past events. In practice, it is an active, forensic discipline centered on how human societies change over time, how people in the past understood their circumstances, and how we interpret surviving evidence. Studying history equips you to interrogate received narratives, distinguish primary evidence from secondary interpretation, detect ideological bias, and trace the structural origins of the contemporary world.
 
-The program emphasizes critical thinking, primary source analysis, and historical interpretation, balancing chronological, regional, and thematic approaches. 
+This curriculum assumes no prior formal training in history. It is designed for self-directed learners who want to build the critical habits of mind, source-criticism skills, and broad chronological literacy of an undergraduate history education, without requiring institutional access or instructor guidance.
 
-## Communities
+### How to Navigate the Curriculum
+
+The curriculum is structured so that methodological tools precede narrative scale, finishing with critical reflection on the discipline itself:
+
+- **Start with Method:** Begin with *Historical Thinking & Source Analysis*. Interrogating provenance, conducting internal and external source criticism, and corroborating conflicting accounts gives you the evidentiary toolkit needed to critically evaluate historical claims.
+- **Work Chronologically:** Proceed through the two global surveys in order: *World History: Ancient to 1500* followed by *World History: 1500 to Present*. These provide a macro-historical framework of human development across Afro-Eurasia and the Americas, deliberately avoiding an exclusively regional or Eurocentric lens.
+- **Interrogate the Craft:** Study *Historiography & Historical Theory* either alongside the modern survey or immediately after it. This subject pulls back the curtain on how historians construct narratives, how interpretive paradigms shift over time, and the debates surrounding historical truth and objectivity.
+
+### Scope
+
+This curriculum focuses strictly on the foundational core that every student of history needs before specializing. It deliberately omits single-nation surveys, regional specializations, and thematic subfields like environmental history or the history of science.
+
+Once you establish this foundation, you can put historical methods into practice through archival and digital research workflows in [Projects](projects.md), explore field-defining monographs in [Readings](extras/readings.md), or study recorded regional lecture series in [Courses](extras/courses.md).
+
+### Communities
 
 - Forums:
     - [Historum](https://historum.com/)
@@ -31,83 +45,6 @@ The program emphasizes critical thinking, primary source analysis, and historica
 - You can also interact through [GitHub issues](https://github.com/hocbigg/history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
 
 ## Curriculum
-
-### Historical Thinking & Source Analysis
-
-Introduces the fundamental epistemology and methods of historical inquiry, teaching learners how to interrogate primary and secondary sources, evaluate evidence, identify bias, and contextualize events within their proper historical settings.
-
-[From Reliable Sources: An Introduction to Historical Methods (Cornell University Press / Martha Howell & Walter Prevenier)](https://archive.org/details/fromreliablesour0000howe) - The primary methodology text, offering an authoritative guide to source criticism, provenance, and evidentiary standards across written and non-written artifacts.
-
-[The Pursuit of History: Aims, Methods and New Directions in the Study of History (Routledge / John Tosh)](https://archive.org/details/pursuitofhistory0000tosh) - A complementary foundational overview that explores the social purpose of history, the nature of documentary evidence, and the emergence of modern historical subfields.
-
-[Reading Like a Historian (Digital Inquiry Group)](https://inquirygroup.org/history-lessons) - Practical, inquiry-driven exercises to use alongside the readings, focusing specifically on developing the core skills of sourcing, contextualizing, corroborating, and close reading.
-
-[Working with Sources (The National Archives)](https://www.nationalarchives.gov.uk/education/students/study-skills-and-research/working-with-sources/) - A concise, applied checklist guide illustrating the essential analytical questions historians ask when examining archival documents.
-
-### World History: Ancient to 1500
-
-Surveys the broad development of human civilizations from the origins of agriculture and the first urban centers through regional empires, Afro-Eurasian trade networks, and pre-Columbian societies up to the eve of global maritime interconnection.
-
-[World History, Volume 1: to 1500 (OpenStax / Ann Kordas et al.)](https://openstax.org/details/books/world-history-volume-1) - The primary foundational textbook, offering an open-access, peer-reviewed global survey of ancient and medieval societies.
-
-[History of the World to 1500 CE (Columbia University / Richard Bulliet)](https://www.youtube.com/playlist?list=PL49C7AA14331CFEF3) - A 25-lecture recorded university course providing collegiate depth on early state structures, religious networks, and pastoralist interactions across Eurasia and Africa.
-
-[Crash Course World History (CrashCourse / John Green)](https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9) - An accessible, fast-paced video series to use as a high-level conceptual preview of macro-historical trends before studying the textbook chapters in depth.
-
-### World History: 1500 to Present
-
-Examines modern global history from early trans-oceanic navigation and imperial expansion through commercial revolutions, industrialization, modern colonial empires, total wars, decolonization, and contemporary globalization.
-
-[World History, Volume 2: from 1400 (OpenStax / Ann Kordas et al.)](https://openstax.org/details/books/world-history-volume-2) - The primary text for modern global history, tracking world integration, technological transformations, and political upheavals from the early modern era forward.
-
-[The Modern World, Part One: Global History from 1760 to 1910 (University of Virginia / Coursera / Philip Zelikow)](https://www.coursera.org/learn/modern-world) - A structured survey course focusing on the commercial, political, and industrial revolutions that forged the modern international system; free to audit.
-
-[The Modern World, Part Two: Global History since 1910 (University of Virginia / Coursera / Philip Zelikow)](https://www.coursera.org/learn/modern-world-2) - The sequential continuation of Part One above, examining the world wars, ideological confrontations, decolonization, and late-twentieth-century globalization; free to audit.
-
-### Historiography & Historical Theory
-
-Examines the intellectual evolution of historical writing, exploring the philosophical debates surrounding objectivity, evidence, and causation, as well as the major schools of interpretation that shape the modern discipline.
-
-[The Historian’s Craft (Vintage Books / Marc Bloch)](https://archive.org/details/historianscraft0000bloc) - A canonical twentieth-century reflection by the co-founder of the Annales school on historical observation, analysis, and how historians reconstruct human experience beyond mere political chronology.
-
-[What Is History? (Penguin Books / E.H. Carr)](https://books.google.com/books?isbn=9780141037851) - A classic series of lectures analyzing the dynamic relationship between historians, facts, and subjective interpretation, serving as the traditional starting point for modern historiographical debate.
-
-[In Defence of History (W. W. Norton & Company / Richard J. Evans)](https://books.google.com/books?isbn=9780393319590) - A modern counterpoint and successor to Carr and Bloch, defending empirical rigor and the possibility of historical knowledge against radical postmodern skepticism.
-
-[What do historians do? (OpenLearn / The Open University)](https://www.open.edu/openlearn/history-the-arts/what-do-historians-do/content-section-0) - A practical, introductory online module that bridges theory and practice by showing how professional historians use material culture and varied evidence to re-evaluate historical narratives.
-
-
-### Other courses
-
-I haven't sorted it yet, just accidentally found this list and really wanna integrate these courses if possible, to the core curriculum
-
-**Yale Courses**
-
--   [Intro to Ancient Greek History](https://www.youtube.com/playlist?list=PL023BCE5134243987) with Donald Kagan
-
--   [The Early Middle Ages](https://www.youtube.com/watch?v=ZC8JcWVRFp8&list=PL851F45079A91C3F2&index=1) with Paul Freedman
-
--   [European Civilization (1648-1945)](https://www.youtube.com/playlist?list=PL3A8E6CE294860A24) with John Merriman
-
--   [France Since 1871](https://www.youtube.com/playlist?list=PLE653BF062C136B62) with John Merriman
-
--   [Can It Happen Here Again? Yale, Slavery, and Legacies](https://www.youtube.com/playlist?list=PLh9mgdi4rNexNlVLgo7Z6Zrbk_Otyz-w1) with David Blight
-
--   [Civil War and Reconstruction](https://www.youtube.com/playlist?list=PL5DD220D6A1282057) with David Blight
-
--   [American History: From Emancipation to the Present](https://www.youtube.com/playlist?list=PLh9mgdi4rNeyqnC6Gj5VCZERhhy9CC1S6) with Professor Holloway
-
--   [Early Modern England](https://www.youtube.com/playlist?list=PL18B9F132DFD967A3) with Keith E. Wrightson
-
-**Columbia University -** [History of the World to 1500 CE](https://www.youtube.com/playlist?list=PL49C7AA14331CFEF3) with Richard Bulliet
-
-**[Civilization: A Personal View](https://www.youtube.com/watch?v=sX_r9R98DiY)** - From the description: "A 1969 British television documentary series written and presented by the art historian Kenneth Clark. The thirteen programmes in the series outline the history of Western art, architecture and philosophy since the Dark Ages. The New Yorker magazine described it as revelatory for the general viewer."
-
-**[The Complete History of the Roman Empire in 4 Hours](https://www.youtube.com/watch?v=P3IIRiSTc3g) -** The title says it all. "For centuries, the Roman Empire was one of the defining powers of the ancient world. But how did this all begin and what caused it to fall apart? Join Mary Beard as she delves into the history of this incredible Empire that shaped the world we know today." This video pairs beautifully with Beard's 2012 tome *SPQR.*
-
-**[Timeline World History Documentaries](https://www.youtube.com/@TimelineChannel) -** Timeline brings together documentaries on nearly every facet of world history you can think of from broadcasters such as BBC, PBS, and Discovery. Many are multiple hours long, like **"**[1922-1991: The Complete History of the Soviet Union](https://www.youtube.com/watch?v=8S3d8EhHy74)**"** and "[The Rise and Fall of Napolean Bonaparte](https://www.youtube.com/watch?v=U0vPCPnm59c)."
-
-## Core History Curriculum
 
 ### Historical Thinking & Source Analysis
 
