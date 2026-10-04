@@ -1,116 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Projects</title>
-<link rel="stylesheet" href="/history/style.css">
-<meta name="description" content="">
+  <title>History Projects &amp; Methodological Walkthroughs</title>
+  <meta name="description" content="History Projects &amp; Methodological Walkthroughs curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/history/">
+  <link rel="canonical" href="https://hocbigg.github.io/history/projects.html">
+  <meta property="og:title" content="History Projects &amp; Methodological Walkthroughs">
+  <meta property="og:description" content="History Projects &amp; Methodological Walkthroughs curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/history/projects.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Projects">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/history/">History</a>
-<a href="/history/projects.html">Projects</a>
-<a href="/history/extras/courses.html">Extra Courses</a>
-<a href="/history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/history/">History</a></li>
+      <li><a href="/history/projects.html">Projects</a></li>
+      <li><a href="/history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="projects">Projects</h1>
-<p>This page is a curated collection of well-written, step-by-step guides for learning History through hands-on, project-based practice.</p>
-<blockquote>
-<p><em>What I cannot create, I do not understand — Richard Feynman.</em></p>
-</blockquote>
-<p>These projects are meant to support learning throughout the curriculum, not only at the end.<br />
-By building, writing, creating, or reconstructing real artifacts in the field, learners develop practical understanding alongside theoretical study.</p>
-<h2 id="tutorials">Tutorials</h2>
+  <main id="main-content">
+    <article>
+
+<h1 id="history-projects-methodological-walkthroughs">History Projects &amp; Methodological Walkthroughs</h1>
+<p>A curated directory of step-by-step guides, open-source tools, and methodological workflows for applying historical knowledge through tangible artifacts—from digital maps and archival collections to oral histories and research monographs.</p>
+<h2 id="write-a-narrative-history">Write a Narrative History</h2>
 <ul>
-<li><a href="#write-your-own-historical-narrative">Historical Narrative</a></li>
-<li><a href="#write-your-own-biography">Biography</a></li>
-<li><a href="#construct-your-own-timeline">Timeline</a></li>
-<li><a href="#create-your-own-historical-map">Historical Map</a></li>
-<li><a href="#build-your-own-archive">Archive</a></li>
-<li><a href="#build-your-own-genealogical-tree">Genealogical Tree</a></li>
-<li><a href="#write-your-own-historiographical-essay">Historiographical Essay</a></li>
-<li><a href="#compile-your-own-primary-source-collection">Primary Source Collection</a></li>
-<li><a href="#formulate-your-own-historical-argument">Historical Argument</a></li>
-<li><a href="#curate-your-own-museum-exhibit">Museum Exhibit</a></li>
-<li><a href="#record-your-own-oral-history">Oral History</a></li>
+<li><a href="https://hwpi.harvard.edu/files/hwp/files/bg_writing_history.pdf" target="_blank" rel="noopener noreferrer">A Brief Guide to Writing the History Paper (Harvard College Writing Center)</a></li>
+<li><a href="https://courses.bowdoin.edu/writing-guides/" target="_blank" rel="noopener noreferrer">Reading, Writing, and Researching for History: A Guide for College Students (Patrick Rael / Bowdoin College)</a></li>
+<li><a href="https://www.williamcronon.net/researching/" target="_blank" rel="noopener noreferrer">Learning to Do Historical Research: Sources and Narrative (William Cronon)</a></li>
 </ul>
-<h3 id="historical-narrative">Historical Narrative</h3>
+<h2 id="write-a-historical-biography-or-profile">Write a Historical Biography or Profile</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.kspatriot.org/index.php/articles/60-guest-authors/722-how-to-write-a-history-narrative-essay-step-by-step-guide.html">How to Write a History Narrative Essay: Step by Step Guide</a> (Step-by-step written guide)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://terpconnect.umd.edu/~jklumpp/comm711/narrative.htm">Writing Narrative History</a> (Detailed tutorial with sections on narrator, plot, characters)</li>
+<li><a href="https://www.evidenceexplained.com/content/writing-historical-biography" target="_blank" rel="noopener noreferrer">Writing Historical Biography (Elizabeth Shown Mills / Evidence Explained)</a></li>
+<li><a href="https://reedsy.com/blog/how-to-write-a-biography" target="_blank" rel="noopener noreferrer">How to Write a Biography: A 7-Step Guide (Reedsy)</a></li>
 </ul>
-<h3 id="biography">Biography</h3>
+<h2 id="build-an-interactive-historical-timeline">Build an Interactive Historical Timeline</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://reedsy.com/blog/how-to-write-a-biography">How to Write a Biography: A 7-Step Guide [+Template]</a> (Comprehensive step-by-step guide with template)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.planetspark.in/creative-writing/how-to-write-a-biography">How to Write a Biography: Step-by-Step Writing Guide</a> (Structured tutorial with examples)</li>
+<li><a href="https://timeline.knightlab.com/" target="_blank" rel="noopener noreferrer">TimelineJS (Knight Lab)</a></li>
+<li><a href="https://storymap.knightlab.com/" target="_blank" rel="noopener noreferrer">StoryMapJS (Knight Lab)</a></li>
 </ul>
-<h3 id="timeline">Timeline</h3>
+<h2 id="create-a-historical-map-or-spatial-visualization">Create a Historical Map or Spatial Visualization</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://timeline.knightlab.com/">TimelineJS</a> (Open-source tool tutorial for building interactive timelines)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.officetimeline.com/timeline/how-to-make">How to make timelines with your usual office tools</a> (Detailed tutorials using common software)</li>
+<li><a href="https://programminghistorian.org/en/lessons/introduction-map-warper" target="_blank" rel="noopener noreferrer">Introduction to Map Warper (Anthony Picón Rodríguez &amp; Miguel Cuadros / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js" target="_blank" rel="noopener noreferrer">Displaying a Georeferenced Map in KnightLab's StoryMap JS (Erica Y. Hayes &amp; Mia Partlow / The Programming Historian)</a></li>
+<li><a href="https://jasonmkelly.com/jason-m-kelly/2020/3/17/preparing-a-historical-map-for-gis-systems" target="_blank" rel="noopener noreferrer">Preparing a Historical Map for GIS Systems (Jason M. Kelly)</a></li>
 </ul>
-<h3 id="historical-map">Historical Map</h3>
+<h2 id="curate-a-primary-source-archive-or-collection">Curate a Primary-Source Archive or Collection</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://jasonmkelly.com/jason-m-kelly/2020/3/17/preparing-a-historical-map-for-gis-systems">Preparing a Historical Map for GIS Systems</a> (Step-by-step tutorial on georectifying and using historical maps in GIS)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://ryancordell.org/research/spatial-humanities/creating-a-historical-map-with-gis">Creating a Historical Map with GIS</a> (Guide to plotting events and georeferencing in ArcGIS)</li>
+<li><a href="https://www.loc.gov/classroom-materials/creating-a-primary-source-archive-all-history-is-local" target="_blank" rel="noopener noreferrer">Creating a Primary Source Archive: All History Is Local (Library of Congress)</a></li>
+<li><a href="https://www.detroithistorical.org/sites/default/files/pdfs/100%20Years%20100%20Stories%20Booklet_Digital.pdf" target="_blank" rel="noopener noreferrer">Home Archival Guide: Your Guide to Build Your Own At-Home Archive (Detroit Historical Society)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/up-and-running-with-omeka" target="_blank" rel="noopener noreferrer">Up and Running with Omeka.net (Miriam Posner / The Programming Historian)</a></li>
 </ul>
-<h3 id="archive">Archive</h3>
+<h2 id="curate-a-virtual-museum-exhibit">Curate a Virtual Museum Exhibit</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://historyit.com/how-to-create-a-digital-archive">How to Create a Digital Archive</a> (Three-step strategy for building and preserving a digital archive)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.detroithistorical.org/sites/default/files/pdfs/100%20Years%20100%20Stories%20Booklet_Digital.pdf">HOME ARCHIVAL GUIDE Your guide to build your own at-home archive!</a> (Expert guide to preserving personal/historical materials at home)</li>
+<li><a href="https://programminghistorian.org/en/lessons/creating-an-omeka-exhibit" target="_blank" rel="noopener noreferrer">Creating an Omeka Exhibit (Miriam Posner &amp; Megan R. Brett / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/building-a-digital-exhibition-with-collectionbuilder-and-the-internet-archive" target="_blank" rel="noopener noreferrer">Building a Digital Exhibition with CollectionBuilder and the Internet Archive (Jennifer Isasi / The Programming Historian)</a></li>
 </ul>
-<h3 id="genealogical-tree">Genealogical Tree</h3>
+<h2 id="conduct-and-record-an-oral-history-project">Conduct and Record an Oral History Project</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.ngsgenealogy.org/free-resources/build-family-tree">How to Build a Family Tree: Tracing Your Ancestors</a> (Step-by-step guide starting from home documents)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://education.myheritage.com/article/how-to-make-a-family-tree-step-by-step-guide-online-tools">How To Make A Family Tree: Step-by-Step Guide For Beginners</a> (4-step process with online tools)</li>
+<li><a href="https://siarchives.si.edu/history/how-do-oral-history" target="_blank" rel="noopener noreferrer">How to Do Oral History (Smithsonian Institution Archives)</a></li>
+<li><a href="https://dohistory.org/on_your_own/toolkit/oralHistory.html" target="_blank" rel="noopener noreferrer">Step-by-Step Guide to Oral History (Judith Moyer / DoHistory)</a></li>
+<li><a href="https://oralhistory.org/best-practices/" target="_blank" rel="noopener noreferrer">Oral History Best Practices (Oral History Association)</a></li>
+<li><a href="https://savingplaces.org/stories/how-to-conduct-oral-history-interview" target="_blank" rel="noopener noreferrer">How to Conduct an Oral History Interview (National Trust for Historic Preservation)</a></li>
 </ul>
-<h3 id="historiographical-essay">Historiographical Essay</h3>
+<h2 id="build-a-genealogical-family-tree">Build a Genealogical Family Tree</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://guides.lib.uoguelph.ca/c.php?g=725675&amp;p=5198838">Seven Steps to Writing Historiography</a> (Clear 7-step university guide)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://uri.libguides.com/historiography/creation">How to Create a Historiography: Step-By-Step Creation</a> (Detailed steps for topic selection and analysis)</li>
+<li><a href="https://www.ngsgenealogy.org/free-resources/build-family-tree" target="_blank" rel="noopener noreferrer">How to Build a Family Tree: Tracing Your Ancestors (National Genealogical Society)</a></li>
+<li><a href="https://www.archives.gov/research/genealogy" target="_blank" rel="noopener noreferrer">Resources for Genealogists and Family Historians (US National Archives)</a></li>
 </ul>
-<h3 id="primary-source-collection">Primary Source Collection</h3>
+<h2 id="write-a-historiographical-essay">Write a Historiographical Essay</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.loc.gov/classroom-materials/creating-a-primary-source-archive-all-history-is-local">Creating a Primary Source Archive: All History Is Local</a> (Library of Congress guide to building a personal/local collection)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.socialstudies.org/sites/default/files/diy_create_your_own_primary_source_sets_0.pdf">DIY: Create Your Own Primary Source Sets</a> (Tutorial for curating and building sets with tools)</li>
+<li><a href="https://guides.lib.uoguelph.ca/Historiography" target="_blank" rel="noopener noreferrer">Seven Steps to Writing Historiography (University of Guelph Library)</a></li>
+<li><a href="https://www.regent.edu/wp-content/uploads/2024/08/Regent-Writing-Lab-Historiography-Papers.pdf" target="_blank" rel="noopener noreferrer">Historiography Papers (Regent University Writing Lab)</a></li>
 </ul>
-<h3 id="historical-argument">Historical Argument</h3>
+<h2 id="formulate-a-historical-argument-or-research-paper">Formulate a Historical Argument or Research Paper</h2>
 <ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://history.uiowa.edu/undergraduate/history-writing-center/argumentation">Writing a Thesis and Making an Argument</a> (Guide to crafting and supporting historical theses)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://online.norwich.edu/online/about/resource-library/how-research-and-write-compelling-history-thesis">How to Research and Write a Compelling History Thesis</a> (Step-by-step process including source analysis and outlining)</li>
+<li><a href="https://history.uiowa.edu/undergraduate/history-writing-center/argumentation" target="_blank" rel="noopener noreferrer">Writing a Thesis and Making an Argument (University of Iowa History Writing Center)</a></li>
+<li><a href="https://courses.bowdoin.edu/writing-guides/preparing-history-papers/the-three-parts-of-a-history-paper/" target="_blank" rel="noopener noreferrer">The Three Parts of a History Paper (Patrick Rael / Bowdoin College)</a></li>
 </ul>
-<h3 id="museum-exhibit">Museum Exhibit</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.instructables.com/Crafting-a-Virtual-Museum-Using-Canva">Crafting a Virtual Museum Using Canva : 8 Steps</a> (Hands-on tutorial for creating a virtual exhibit)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://learn.artsbma.org/resource/curate-our-collection-make-your-own-exhibition">Curate Our Collection - Make Your Own Exhibition</a> (Digital curation guide using museum tools and worksheets)</li>
-</ul>
-<h3 id="oral-history">Oral History</h3>
-<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://siarchives.si.edu/history/how-do-oral-history">How to Do Oral History</a> (Smithsonian best practices and step-by-step suggestions)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://savingplaces.org/stories/how-to-conduct-oral-history-interview">How to Conduct an Oral History Interview</a> (9 practical tips for planning and recording interviews)</li>
-</ul>
-</article>
-</main>
+    </article>
+  </main>
 
 </body>
 </html>

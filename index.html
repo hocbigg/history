@@ -1,252 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - History</title>
-<link rel="stylesheet" href="/history/style.css">
-<meta name="description" content="🎓 Path to a free self-taught education in History!">
+  <title>Hocbigg - History</title>
+  <meta name="description" content="Path to a free self-taught education in History!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/history/">
+  <link rel="canonical" href="https://hocbigg.github.io/history/">
+  <meta property="og:title" content="Hocbigg - History">
+  <meta property="og:description" content="Path to a free self-taught education in History!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/history/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - History">
-<meta property="og:description" content="🎓 Path to a free self-taught education in History!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/history/">History</a>
-<a href="/history/projects.html">Projects</a>
-<a href="/history/extras/courses.html">Extra Courses</a>
-<a href="/history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/history/">History</a></li>
+      <li><a href="/history/projects.html">Projects</a></li>
+      <li><a href="/history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - History</h1>
+  <p class="page-subtitle">Path to a free self-taught education in History!</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-10-01">2026-10-01</time></small></p>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="introduction">Introduction</h2>
+<p>History is often mistaken for a static catalog of names, dates, and past events. In practice, it is an active, forensic discipline centered on how human societies change over time, how people in the past understood their circumstances, and how we interpret surviving evidence. Studying history equips you to interrogate received narratives, distinguish primary evidence from secondary interpretation, detect ideological bias, and trace the structural origins of the contemporary world.</p>
+<p>This curriculum assumes no prior formal training in history. It is designed for self-directed learners who want to build the critical habits of mind, source-criticism skills, and broad chronological literacy of an undergraduate history education, without requiring institutional access or instructor guidance.</p>
+<h3 id="how-to-navigate-the-curriculum">How to Navigate the Curriculum</h3>
+<p>The curriculum is structured so that methodological tools precede narrative scale, finishing with critical reflection on the discipline itself:</p>
 <ul>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#communities">Communities</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
+<li><strong>Start with Method:</strong> Begin with <em>Historical Thinking &amp; Source Analysis</em>. Interrogating provenance, conducting internal and external source criticism, and corroborating conflicting accounts gives you the evidentiary toolkit needed to critically evaluate historical claims.</li>
+<li><strong>Work Chronologically:</strong> Proceed through the two global surveys in order: <em>World History: Ancient to 1500</em> followed by <em>World History: 1500 to Present</em>. These provide a macro-historical framework of human development across Afro-Eurasia and the Americas, deliberately avoiding an exclusively regional or Eurocentric lens.</li>
+<li><strong>Interrogate the Craft:</strong> Study <em>Historiography &amp; Historical Theory</em> either alongside the modern survey or immediately after it. This subject pulls back the curtain on how historians construct narratives, how interpretive paradigms shift over time, and the debates surrounding historical truth and objectivity.</li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>This roadmap provides a structured, self-paced curriculum equivalent to a 4-year undergraduate degree in History.</p>
-<p>The program emphasizes critical thinking, primary source analysis, and historical interpretation, balancing chronological, regional, and thematic approaches. </p>
-<p>This repository is organized into three 2 components:</p>
-<ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="projects.html">Projects</a></strong>: support learning through practical application throughout the curriculum.</li>
-</ul>
-<p><strong>Process:</strong> Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-</ul>
-<p>Practical work is integrated through the <a href="projects.html">Projects section</a> and may be undertaken alongside coursework.</p>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
-<p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
+<h3 id="scope">Scope</h3>
+<p>This curriculum focuses strictly on the foundational core that every student of history needs before specializing. It deliberately omits single-nation surveys, regional specializations, and thematic subfields like environmental history or the history of science.</p>
+<p>Once you establish this foundation, you can put historical methods into practice through archival and digital research workflows in <a href="projects.html">Projects</a>, explore field-defining monographs in <a href="extras/readings.html">Readings</a>, or study recorded regional lecture series in <a href="extras/courses.html">Courses</a>.</p>
+<h3 id="communities">Communities</h3>
 <ul>
 <li>Forums:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://historum.com/">Historum</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://reshistorica.forumotion.com/">Res Historica</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.alternatehistory.com/forum/">AlternateHistory.com</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.thehistorypress.co.uk/forum/">History Forum at The History Press</a></li>
+<li><a href="https://historum.com/" target="_blank" rel="noopener noreferrer">Historum</a></li>
+<li><a href="https://reshistorica.forumotion.com/" target="_blank" rel="noopener noreferrer">Res Historica</a></li>
+<li><a href="https://www.alternatehistory.com/forum/" target="_blank" rel="noopener noreferrer">AlternateHistory.com</a></li>
+<li><a href="https://www.thehistorypress.co.uk/forum/" target="_blank" rel="noopener noreferrer">History Forum at The History Press</a></li>
 </ul>
 </li>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/history/">r/history</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AskHistorians/">r/AskHistorians</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/HistoryPorn/">r/HistoryPorn</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AcademicHistory/">r/AcademicHistory</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/HistoryWhatIf/">r/HistoryWhatIf</a></li>
+<li><a href="https://www.reddit.com/r/history/" target="_blank" rel="noopener noreferrer">r/history</a></li>
+<li><a href="https://www.reddit.com/r/AskHistorians/" target="_blank" rel="noopener noreferrer">r/AskHistorians</a></li>
+<li><a href="https://www.reddit.com/r/HistoryPorn/" target="_blank" rel="noopener noreferrer">r/HistoryPorn</a></li>
+<li><a href="https://www.reddit.com/r/AcademicHistory/" target="_blank" rel="noopener noreferrer">r/AcademicHistory</a></li>
+<li><a href="https://www.reddit.com/r/HistoryWhatIf/" target="_blank" rel="noopener noreferrer">r/HistoryWhatIf</a></li>
 </ul>
 </li>
 <li>Discord servers:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/history">World History Discord</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/r-history-284001693044310016">r/history Discord</a></li>
+<li><a href="https://discord.com/invite/history" target="_blank" rel="noopener noreferrer">World History Discord</a></li>
+<li><a href="https://discord.com/invite/r-history-284001693044310016" target="_blank" rel="noopener noreferrer">r/history Discord</a></li>
 </ul>
 </li>
 <li>Other:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://savageminds.org/">Savage Minds (Anthropology &amp; History Blog/Forum)</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://hcommons.social/">History (Mastodon Instance)</a></li>
+<li><a href="https://savageminds.org/" target="_blank" rel="noopener noreferrer">Savage Minds (Anthropology &amp; History Blog/Forum)</a></li>
+<li><a href="https://hcommons.social/" target="_blank" rel="noopener noreferrer">History (Mastodon Instance)</a></li>
 </ul>
 </li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/history/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/history/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<h2 id="foundations-of-historical-study">Foundations of Historical Study</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Historical Thinking &amp; Methods</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/fromreliablesour0000howe">From Reliable Sources</a></strong> – Howell &amp; Prevenier (Archive.org) + (Supplement) <strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/pursuitofhistory0000tosh">The Pursuit of History</a></strong> – John Tosh (Archive.org)</td>
-<td></td>
-</tr>
-<tr>
-<td>Working with Primary Sources</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://sourcebooks.web.fordham.edu/">Fordham University Internet History Sourcebooks</a></strong> (Global)</td>
-<td>National Archives (UK) – <a target="_blank" rel="noopener noreferrer" href="https://www.nationalarchives.gov.uk/education/students/study-resources/working-with-records/"><em>Using Primary Sources</em></a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="global-chronological-survey">Global Chronological Survey</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>World History I: Ancient to 1500</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/world-history-cultures-states-and-societies-to-1500">World History: Cultures, States, and Societies, Vol. 1</a></strong> (Open Textbook)</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9">CrashCourse World History</a></strong> (selected, chronological)</td>
-</tr>
-<tr>
-<td>World History II: 1500 to Present</td>
-<td><em>World History: Cultures, States, and Societies, Vol. 2</em> (Open Textbook) (Note: Vol. 2 not directly located as standalone open text; use Vol. 1 extension or related resources)</td>
-<td>Open Yale Courses – <em>Global History</em> (No exact match; see Yale OYC broad history: <a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history">https://oyc.yale.edu/history</a>)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="core-thematic-frameworks">Core Thematic Frameworks</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Economic &amp; Social History</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/globaleconomichi0000alle">Global Economic History: A Very Short Introduction</a></strong> – Robert C. Allen</td>
-<td></td>
-</tr>
-<tr>
-<td>Political Power, States, and War</td>
-<td><em>A History of Warfare</em> – John Keegan + <strong><a target="_blank" rel="noopener noreferrer" href="https://avalon.law.yale.edu/">Avalon Project</a></strong> (Yale Law School)</td>
-<td></td>
-</tr>
-<tr>
-<td>Historiography &amp; Historical Theory</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/historianscraft0000bloc">The Historian’s Craft</a></strong> – Marc Bloch (Archive.org) + (supplement) E.H. Carr – <em>What Is History?</em> (Archive.org excerpts)</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="regional-depth-modules-post-survey">Regional Depth Modules (Post-Survey)</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Europe (Medieval to Modern)</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://pressbooks.bccampus.ca/westernciv/">Western Civilization: A Concise History</a></strong> (Open Minnesota; note: multi-volume open edition)</td>
-<td>Yale OYC – <strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-202">European Civilization 1648–1945</a></strong></td>
-</tr>
-<tr>
-<td>The Americas</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="http://www.americanyawp.com/">American Yawp</a></strong> (Stanford / Open Access)</td>
-<td>Yale OYC – <strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-116">The American Revolution</a></strong></td>
-</tr>
-<tr>
-<td>Africa &amp; Middle East</td>
-<td><em>Africans: The History of a Continent</em> – John Iliffe (paid; authoritative) + (Supplement) <em>A History of Africa</em> – British Library Essays</td>
-<td>Coursera – <em>Archaeology and Heritage of Africa</em> (Search Coursera for current availability)</td>
-</tr>
-<tr>
-<td>Asia &amp; the Pacific</td>
-<td><em>East Asia in the World</em> (Open Textbook)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="cross-cutting-global-themes">Cross-Cutting Global Themes</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Environmental &amp; Technological History</td>
-<td><em>Something New Under the Sun</em> – J.R. McNeill</td>
-<td>Coursera – <strong><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/sustainable-development">The Age of Sustainable Development</a></strong></td>
-</tr>
-<tr>
-<td>Gender, Culture, and Identity</td>
-<td><em>Gender and the Politics of History</em> – Joan Scott + (Supplement) OpenLearn – <em>Women in Global History</em></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/a-global-history-of-sex-and-gender">FutureLearn – <em>A Global History of Sex and Gender</em></a></td>
-</tr>
-<tr>
-<td>Knowledge, Science, and Modernity</td>
-<td><em>The Scientific Revolution</em> – Steven Shapin</td>
-<td>MIT OCW – <strong><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/sts/">Science, Technology, and Society</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="historical-research-writing">Historical Research &amp; Writing</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Research Design and Writing</td>
-<td><em>Writing History</em> – William Kelleher Storey + (Supplement) <em>The Princeton Guide to Historical Research</em> – Schrag</td>
-<td>Harvard Online – <em>How to Write an Essay</em></td>
-</tr>
-</tbody>
-</table>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="historical-thinking-source-analysis">Historical Thinking &amp; Source Analysis</h3>
+<p>Introduces the fundamental epistemology and methods of historical inquiry, teaching learners how to interrogate primary and secondary sources, evaluate evidence, identify bias, and contextualize events within their proper historical settings.</p>
+<p><a href="https://archive.org/details/fromreliablesour0000howe" target="_blank" rel="noopener noreferrer">From Reliable Sources: An Introduction to Historical Methods (Cornell University Press / Martha Howell &amp; Walter Prevenier)</a> - The primary methodology textbook, providing a systematic guide to source criticism, provenance, external and internal critique, and evidentiary standards across written and non-written artifacts.</p>
+<p><a href="https://archive.org/details/pursuitofhistory0000tosh" target="_blank" rel="noopener noreferrer">The Pursuit of History: Aims, Methods and New Directions in the Study of History (Routledge / John Tosh)</a> - An alternative or complementary foundational guide that adopts a more narrative approach, focusing on why historical questions matter and how modern subfields have broadened the scope of documentary evidence.</p>
+<p><a href="https://inquirygroup.org/history-lessons" target="_blank" rel="noopener noreferrer">Reading Like a Historian (Digital Inquiry Group)</a> - Practical, inquiry-driven exercises to apply alongside the readings, offering hands-on practice in the four core habits of sourcing, contextualization, corroboration, and close reading.</p>
+<p><a href="https://www.nationalarchives.gov.uk/education/students/study-skills-and-research/working-with-sources/" target="_blank" rel="noopener noreferrer">Working with Sources (The National Archives)</a> - A concise reference checklist from professional archivists that complements the theoretical readings with practical questions to ask when analyzing physical and digitized primary documents.</p>
+<h3 id="world-history-ancient-to-1500">World History: Ancient to 1500</h3>
+<p>Surveys the broad development of human civilizations from the origins of agriculture and the first urban centers through regional empires, Afro-Eurasian trade networks, and pre-Columbian societies up to the eve of global maritime interconnection.</p>
+<p><a href="https://openstax.org/details/books/world-history-volume-1" target="_blank" rel="noopener noreferrer">World History, Volume 1: to 1500 (OpenStax / Ann Kordas et al.)</a> - The primary open-access textbook for this period, offering comprehensive chronological coverage of pre-modern global civilizations and trans-regional exchanges.</p>
+<p><a href="https://www.youtube.com/playlist?list=PL49C7AA14331CFEF3" target="_blank" rel="noopener noreferrer">History of the World to 1500 CE (Columbia University / Richard Bulliet)</a> - A 25-lecture collegiate video course that complements the OpenStax textbook by providing deeper analytical lectures on early states, pastoralist networks, and religious systems across Eurasia and Africa.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9" target="_blank" rel="noopener noreferrer">Crash Course World History (CrashCourse / John Green)</a> - An optional, fast-paced conceptual companion designed to help visual learners preview major macro-historical patterns before tackling the textbook chapters and university lectures.</p>
+<h3 id="world-history-1500-to-present">World History: 1500 to Present</h3>
+<p>Examines modern global history from early trans-oceanic navigation and imperial expansion through commercial revolutions, industrialization, modern colonial empires, total wars, decolonization, and contemporary globalization.</p>
+<p><a href="https://openstax.org/details/books/world-history-volume-2" target="_blank" rel="noopener noreferrer">World History, Volume 2: from 1400 (OpenStax / Ann Kordas et al.)</a> - The primary open-access textbook for modern global history, tracking world economic integration, state formation, and global conflicts from the early modern era forward.</p>
+<p><a href="https://www.coursera.org/learn/modern-world" target="_blank" rel="noopener noreferrer">The Modern World, Part One: Global History from 1760 to 1910 (University of Virginia / Coursera / Philip Zelikow)</a> - The first half of a two-part video lecture sequence that complements the textbook, focusing closely on the commercial, political, and industrial revolutions that built modern international systems; free to audit.</p>
+<p><a href="https://www.coursera.org/learn/modern-world-2" target="_blank" rel="noopener noreferrer">The Modern World, Part Two: Global History since 1910 (University of Virginia / Coursera / Philip Zelikow)</a> - The sequential continuation of Part One above, analyzing the world wars, ideological confrontation, decolonization, and late-twentieth-century globalization; free to audit.</p>
+<h3 id="historiography-historical-theory">Historiography &amp; Historical Theory</h3>
+<p>Examines the intellectual evolution of historical writing, exploring the philosophical debates surrounding objectivity, evidence, and causation, as well as the major schools of interpretation that shape the modern discipline.</p>
+<p><a href="https://archive.org/details/historianscraft0000bloc" target="_blank" rel="noopener noreferrer">The Historian’s Craft (Vintage Books / Marc Bloch)</a> - A foundational twentieth-century reflection by the co-founder of the Annales school on historical observation, analysis, and how historians reconstruct human experience beyond mere political chronology.</p>
+<p><a href="https://books.google.com/books?isbn=9780141037851" target="_blank" rel="noopener noreferrer">What Is History? (Penguin Books / E.H. Carr)</a> - A seminal series of lectures analyzing the dynamic relationship between historians, facts, and subjective interpretation, serving as the traditional starting point for modern historiographical debate.</p>
+<p><a href="https://books.google.com/books?isbn=9780393319590" target="_blank" rel="noopener noreferrer">In Defence of History (W. W. Norton &amp; Company / Richard J. Evans)</a> - A modern counterpoint and successor to Carr and Bloch, defending empirical rigor and the possibility of historical knowledge against radical postmodern skepticism; best read after Carr.</p>
+<p><a href="https://www.open.edu/openlearn/history-the-arts/what-do-historians-do/content-section-0" target="_blank" rel="noopener noreferrer">What do historians do? (OpenLearn / The Open University)</a> - An interactive introductory online module that bridges theory and practice, illustrating how working historians use material culture and archival clues to challenge accepted narratives.</p>
+    </article>
+  </main>
 
 </body>
 </html>

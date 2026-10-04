@@ -1,236 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Great Courses</title>
-<link rel="stylesheet" href="/history/style.css">
-<meta name="description" content="">
+  <title>Great Courses</title>
+  <meta name="description" content="Great Courses curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/history/">
+  <link rel="canonical" href="https://hocbigg.github.io/history/extras/courses.html">
+  <meta property="og:title" content="Great Courses">
+  <meta property="og:description" content="Great Courses curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/history/extras/courses.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Great Courses">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/history/">History</a>
-<a href="/history/projects.html">Projects</a>
-<a href="/history/extras/courses.html">Extra Courses</a>
-<a href="/history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/history/">History</a></li>
+      <li><a href="/history/projects.html">Projects</a></li>
+      <li><a href="/history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="great-courses">Great Courses</h1>
-<p>This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.</p>
-<h2 id="ancient-and-classical-history">Ancient and Classical History</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/ancient-health">Health and Wellbeing in the Ancient World</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/ancient-greece-myth-art-war/id507909411">Ancient Greece: Myth, Art &amp; War</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/arabic-world">The Cosmopolitan Medieval Arabic World</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/the-roman-world/id685694250">The Roman World</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="european-history">European History</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://pll.harvard.edu/course/age-cathedrals">Age of Cathedrals</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/medieval-spain">Coexistence in Medieval Spain: Jews, Christians, and Muslims</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/medieval-europe">Deciphering Secrets: The Illuminated Manuscripts of Medieval Europe</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/magic-middle-ages">Magic in the Middle Ages</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/book-of-kells">The Book of Kells: Exploring an Irish Medieval Masterpiece</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="american-history">American History</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/african-american-studies/afam-162">African American History: Emancipation to the Present</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/age-of-jefferson">Age of Jefferson</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-116">The American Revolution</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-119">The Civil War and Reconstruction Era, 1845–1877</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="globalnon-western-history">Global/Non-Western History</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/arab-islamic-history">Arab-Islamic History: From Tribes to Empires</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://pll.harvard.edu/course/china-part-6-manchus-and-qing">Modern China’s Foundations: The Manchus and the Qing</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://pll.harvard.edu/course/china-part-7-invasions-rebellions-and-end-imperial-china">Invasions, Rebellions, and the Fall of Imperial China</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://pll.harvard.edu/course/china-part-9-communist-liberations">China and Communism</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="thematic-history">Thematic History</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.bighistoryproject.com/home">Big History</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-234">Epidemics in Western Society Since 1600</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.futurelearn.com/courses/the-great-war">The Great War and Modern Philosophy</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iDIx4iAfMsFgGH9VCjhWy7C">History of Information</a></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="online-learning-great-courses">Online Learning - Great Courses</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Courses</th>
-<th style="text-align: center;">Duration</th>
-<th style="text-align: center;">Effort</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/mindshift">Mindshift</a></td>
-<td style="text-align: center;">4 weeks</td>
-<td style="text-align: center;">2 hours/week</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/learn/google-power-searching/google-power-searching-with-google">Powersearching with Google</a></td>
-<td style="text-align: center;">3 weeks</td>
-<td style="text-align: center;">4-6 hours/week</td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<p>A curated collection of full-length university lecture series, high-production open courses, and audiovisual deep dives in History that offer exceptional historiographical insight and pedagogical depth beyond core introductory surveys.</p>
+<h2 id="ancient-classical-medieval-worlds">Ancient, Classical &amp; Medieval Worlds</h2>
+<ul>
+<li><a href="https://oyc.yale.edu/classics/clcv-205" target="_blank" rel="noopener noreferrer">Introduction to Ancient Greek History (Open Yale Courses / Yale University / Donald Kagan)</a></li>
+<li><a href="https://oyc.yale.edu/history-of-art/hsar-252" target="_blank" rel="noopener noreferrer">Roman Architecture (Open Yale Courses / Yale University / Diana E. E. Kleiner)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-210" target="_blank" rel="noopener noreferrer">The Early Middle Ages, 284–1000 (Open Yale Courses / Yale University / Paul Freedman)</a></li>
+<li><a href="https://www.coursera.org/learn/age-of-cathedrals" target="_blank" rel="noopener noreferrer">Age of Cathedrals (Coursera / Yale University / R. Howard Bloch)</a></li>
+<li><a href="https://www.coursera.org/learn/medieval-spain" target="_blank" rel="noopener noreferrer">Coexistence in Medieval Spain: Jews, Christians, and Muslims (Coursera / University of Colorado Boulder / Brian A. Catlos &amp; Roger L. Martínez-Dávila)</a></li>
+<li><a href="https://www.futurelearn.com/courses/book-of-kells" target="_blank" rel="noopener noreferrer">The Book of Kells: Exploring an Irish Medieval Masterpiece (FutureLearn / Trinity College Dublin / Fintan Cullen &amp; Rachel Moss)</a></li>
+</ul>
+<h2 id="early-modern-modern-european-history">Early Modern &amp; Modern European History</h2>
+<ul>
+<li><a href="https://oyc.yale.edu/history/hist-251" target="_blank" rel="noopener noreferrer">Early Modern England: Politics, Religion, and Society under the Tudors and Stuarts (Open Yale Courses / Yale University / Keith E. Wrightson)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-202" target="_blank" rel="noopener noreferrer">European Civilization, 1648–1945 (Open Yale Courses / Yale University / John Merriman)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-276" target="_blank" rel="noopener noreferrer">France Since 1871 (Open Yale Courses / Yale University / John Merriman)</a></li>
+<li><a href="https://www.coursera.org/learn/holocaust-introduction-1" target="_blank" rel="noopener noreferrer">The Holocaust - An Introduction (I): Nazi Germany: Ideology, The Jews and the World (Coursera / Tel Aviv University &amp; Yad Vashem / Havi Dreifuss &amp; Na'ama Shik)</a></li>
+</ul>
+<h2 id="african-american-atlantic-american-history">African American, Atlantic &amp; American History</h2>
+<ul>
+<li><a href="https://oyc.yale.edu/history/hist-116" target="_blank" rel="noopener noreferrer">The American Revolution (Open Yale Courses / Yale University / Joanne B. Freeman)</a></li>
+<li><a href="https://oyc.yale.edu/history/hist-119" target="_blank" rel="noopener noreferrer">The Civil War and Reconstruction Era, 1845–1877 (Open Yale Courses / Yale University / David W. Blight)</a></li>
+<li><a href="https://oyc.yale.edu/african-american-studies/afam-162" target="_blank" rel="noopener noreferrer">African American History: From Emancipation to the Present (Open Yale Courses / Yale University / Jonathan Holloway)</a></li>
+<li><a href="https://www.coursera.org/learn/age-of-jefferson" target="_blank" rel="noopener noreferrer">The Age of Jefferson (Coursera / University of Virginia / Peter Onuf)</a></li>
+</ul>
+<h2 id="global-asian-middle-eastern-civilizations">Global, Asian &amp; Middle Eastern Civilizations</h2>
+<ul>
+<li><a href="https://pll.harvard.edu/course/chinas-political-and-intellectual-foundations-sage-kings-confucius" target="_blank" rel="noopener noreferrer">China's Political and Intellectual Foundations: From Sage Kings to Confucius (Harvard Online / Harvard University / Peter K. Bol &amp; William C. Kirby)</a></li>
+<li><a href="https://www.coursera.org/learn/arabic-world" target="_blank" rel="noopener noreferrer">The Cosmopolitan Medieval Arabic World (Coursera / Universiteit Leiden / Petra Sijpesteijn)</a></li>
+<li><a href="https://www.coursera.org/learn/modern-middle-east-1" target="_blank" rel="noopener noreferrer">The Emergence of the Modern Middle East - Part I (Coursera / Tel Aviv University / Asher Susser)</a></li>
+<li><a href="https://www.coursera.org/learn/modern-middle-east-2" target="_blank" rel="noopener noreferrer">The Emergence of the Modern Middle East - Part II (Coursera / Tel Aviv University / Asher Susser)</a></li>
+</ul>
+<h2 id="thematic-intellectual-epidemiological-histories">Thematic, Intellectual &amp; Epidemiological Histories</h2>
+<ul>
+<li><a href="https://oyc.yale.edu/history/hist-234" target="_blank" rel="noopener noreferrer">Epidemics in Western Society Since 1600 (Open Yale Courses / Yale University / Frank M. Snowden)</a></li>
+<li><a href="https://ocw.mit.edu/courses/sts-042j-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/" target="_blank" rel="noopener noreferrer">Einstein, Oppenheimer, Feynman: Physics in the 20th Century (MIT OpenCourseWare / David Kaiser)</a></li>
+<li><a href="https://www.oerproject.com/Big-History" target="_blank" rel="noopener noreferrer">Big History Project (OER Project / Macquarie University / David Christian)</a></li>
+</ul>
+    </article>
+  </main>
 
 </body>
 </html>
